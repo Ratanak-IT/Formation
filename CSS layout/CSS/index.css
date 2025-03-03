@@ -1,0 +1,42 @@
+/*id selector*/
+#klasor{
+    color:orange;
+}
+/* attribute selector */
+h3[class] {
+    color: yellow;
+  }
+/*class selector*/
+.title{
+    color: blueviolet;
+}
+/*selector */
+h3{
+    color: blue;
+
+}
+/*universol*/
+*{
+    color: red;
+}
+/*Group selector*/
+.groupselector, h2 ,p{
+    color: rgb(3, 241, 79);
+}
+/*combain selector*/
+div > h2{
+    color: red;
+}
+/*sudo*/
+div > h2:hover{
+    color: blue;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: chartreuse;
+}
